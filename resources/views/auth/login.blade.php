@@ -2,7 +2,7 @@
 
 
 @section('titulo')
-    Pagina Principal
+    Iniciar Sesion
 @endsection
 
 @section('contenido')
