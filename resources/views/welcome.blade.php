@@ -7,6 +7,6 @@
 
 @section('contenido')
     <div>
-        Holisss
+      
     </div>
 @endsection

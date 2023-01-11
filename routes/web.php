@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ComponentController;
 use App\Http\Controllers\LoginController;
 use Illuminate\Support\Facades\Route;
 
@@ -19,4 +20,12 @@ Route::get('/', function () {
 });
 
 Route::get('auth/login', [LoginController::class, 'index'])->name('login');
+Route::post('auth/login', [LoginController::class, 'store']);
+
+
 Route::get('auth/register', [LoginController::class, 'index'])->name('register');
+Route::post('auth/register', [LoginController::class, 'store']);
+
+
+Route::get('/componentes/create', [ComponentController::class, 'index'])->name('componentes.create');
+Route::post('/componentes/create', [ComponentController::class, 'store']);
