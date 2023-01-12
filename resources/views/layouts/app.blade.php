@@ -35,7 +35,7 @@
         </main>
 
         {{-- Comment 4 Top of footer, it remains to be started --}}
-        <footer class="fixed bottom-0 items-center w-full h-24 p-5 mt-10 shadow-lg bg-cyan-200 md:flex md:justify-between ">
+        <footer class="bottom-0 items-center w-full h-24 p-5 mt-20 shadow-lg ms:fixed bg-cyan-200 md:flex md:justify-between ">
             <a href="/" class="text-3xl">Digital<span class="mb-0 font-bold">Tech</span></a>
         </footer>
     </body>

@@ -16,7 +16,7 @@ class ComponentController extends Controller
     // The request contains all the information of the form
     public function store(Request $request)
     {
-        dd('Componente Nuevo');
+
 
         // Form data validation rules
         $this->validate($request, [
@@ -25,7 +25,7 @@ class ComponentController extends Controller
             'price' => ['required'],
             'stored' => ['required', 'min:1']
         ]);
-
+        dd('Componente Nuevo');
         // Create the component
         Component::create([
             'name' => $request->name,
